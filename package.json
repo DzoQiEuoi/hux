@@ -1,0 +1,29 @@
+{
+  "name": "hux",
+  "version": "1.0.0",
+  "description": "Hooks and context provider for redux store.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DzoQiEuoi/hux.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "hooks",
+    "context"
+  ],
+  "author": "DzoQiEuoi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DzoQiEuoi/hux/issues"
+  },
+  "homepage": "https://github.com/DzoQiEuoi/hux#readme",
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.0",
+    "redux": "^1.0.0"
+  }
+}
