@@ -1,6 +1,6 @@
 # Hux
 
-Access and dispatch to your redux store from anywhere in your compnent tree using only React Hooks.
+Access and dispatch to your redux store from anywhere in your component tree using only React Hooks.
 
 ## Example usage
 
