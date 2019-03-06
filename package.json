@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/DzoQiEuoi/hux#readme",
   "peerDependencies": {
-    "react": "^16.7.0-alpha.0",
-    "redux": "*"
+    "react": "^16.7.0-alpha.0"
   }
 }

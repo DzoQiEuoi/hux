@@ -1,7 +1,22 @@
 import React, {useContext, useEffect, useState} from 'react';
-import { compose } from 'redux';
 
 const Store = React.createContext();
+
+const compose = (...funcs) => {
+    if (funcs.length === 0) {
+        return arg => arg;
+    }
+
+    if (funcs.length === 1) {
+        return funcs[0];
+    }
+
+    return funcs.reduce((a, b) => {
+        return function() {
+            return a(b.apply(undefined, arguments));
+        };
+    });
+};
 
 export const useDispatch = actionCreator => {
     const { dispatch } = useContext(Store);
